@@ -1,0 +1,205 @@
+/* cursor  光标样式
+
+url	
+需使用的自定义光标的 URL。
+注释：请在此列表的末端始终定义一种普通的光标，以防没有由 URL 定义的可用光标。
+default	默认光标（通常是一个箭头）
+auto	默认。浏览器设置的光标。
+crosshair	光标呈现为十字线。
+pointer	光标呈现为指示链接的指针（一只手）
+move	此光标指示某对象可被移动。
+e-resize	此光标指示矩形框的边缘可被向右（东）移动。
+ne-resize	此光标指示矩形框的边缘可被向上及向右移动（北/东）。
+nw-resize	此光标指示矩形框的边缘可被向上及向左移动（北/西）。
+n-resize	此光标指示矩形框的边缘可被向上（北）移动。
+se-resize	此光标指示矩形框的边缘可被向下及向右移动（南/东）。
+sw-resize	此光标指示矩形框的边缘可被向下及向左移动（南/西）。
+s-resize	此光标指示矩形框的边缘可被向下移动（南）。
+w-resize	此光标指示矩形框的边缘可被向左移动（西）。
+text	此光标指示文本。
+wait	此光标指示程序正忙（通常是一只表或沙漏）。
+help	此光标指示可用的帮助（通常是一个问号或一个气球）。 */
+
+.HomeBody{
+	width: 100%;
+	height: 5660px;
+	background: rgb(245,245,245);
+	position: relative;
+
+}
+.HomeBody img{width: 100%;height: 100%}
+.Recommend{
+	width: 1215px;
+	height: 360px;
+	padding-top: 36px;
+	margin:0px auto;
+	font-family:'myfontC';
+}
+.Recommend img{width: 100%;height: 85%;}
+.Recommend>div{background-color: rgb(255,255,255);}
+.Recommend span:nth-child(1){font-size: 18px;font-weight: bold;}
+.Recommend span:nth-child(2){font-size: 16px;font-weight: bold;}
+.RA{
+	float: right;
+	margin-right: 30px;
+	font-size: 21px;
+	color: #999;
+}
+.RecommendA{
+	display:inline-block;
+	width: 240px;
+	height: 100%;
+	margin-right: 10px;
+}
+.RecommendA div{width: 100%;padding: 16px;}
+.RecommendA>a:hover,.RecommendB>a:hover,.RecommendC>a:hover{
+	z-index: 66;
+	background-color:gray;
+	opacity:0.7;
+	transition: all .2s ease-in 0s;
+}
+.RecommendB{
+	display:inline-block;
+	min-width: 400px;
+	max-width: 460px;
+	height: 100%;
+	margin-right: 10px;
+}
+.RecommendB div{width: 100%;padding: 16px;}
+.RecommendC{
+	display:inline-block;
+	width: 474px;
+	height: 100%;
+}
+.RecommendC div{width: 100%;padding: 16px;}
+
+.RecommendDrand{
+	width: 1215px;
+	height: 216px;
+	margin:0px auto;
+	margin-top: 26px;
+	font-family:'myfontC';
+}
+.RecommendDrand>div{
+	background-color: rgb(255,255,255);
+	display: inline-block;
+	width: 9.666%;
+	height: 49%;
+	position: relative;
+	margin:1px auto;
+	text-align:center;
+	cursor:pointer;
+	vertical-align: middle;
+}
+.RecommendDrand .lucency{
+	position: absolute;z-index: 99;background-color:rgba(0,0,0,.8);
+	width: 68%;height: 50%;padding: 16%;padding-top: 28%;font-size: 12px;
+	color: rgb(255,255,255);display: none;
+}
+.RecommendDrand .button{
+	width: 100%;height: 42%;color: rgb(255,255,255);font-size: 12px;
+	background-color: rgb(255,0,52);border: 0px;border-radius: 45px;
+	outline: none;margin-top: 10px;display: block;
+}
+.RecommendDrand .img{padding-top: 30px;}
+.RecommendDrand .exchange{
+	transition: all .2s ease-in 0s;line-height: 100px;
+	font-size: 34px;
+	color: #999;
+}
+.RecommendDrand .exchange:hover{background-color: rgb(255,0,52);}
+.RecommendDrand>div img{width:80%;height: 52%;}
+
+.MART{
+	width: 1215px;
+	height: 666px;
+	margin:0px auto;
+	margin-top:15px;
+	font-family:'myfontC';
+}
+.masking:hover{
+	background-color:gray;
+	opacity:0.8;
+}
+.MART img{width: 100%;height: 100%;vertical-align: middle;}
+.MART>div>div>div{display: inline-block;}
+.MART .big-banner-TOPA{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 210px;height: 26px;
+}
+.MART .big-banner-TOPB{
+	height: 26px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: right;
+}
+.MART .big-banner-TOPB>a{
+	font-size: 14px;
+	margin: 10px;
+	color: rgb(0,0,0);
+}
+.MART .big-banner-TOPB>a:hover{border-bottom: 1px solid rgb(0,0,0)}
+.MART .big-banner-AL1{float: left;height: 600px;width: 240px;transition: all .2s ease-in 0s;}
+.MART .big-banner-A1{
+	float: left;width: 477px;height: 295px;margin-left: 10px;
+	background-color: #fff;transition: all .2s ease-in 0s;
+}
+.MART .big-banner-AN{
+	float: left;width: 231.5px;height: 293px;margin-left: 10px;background-color: #fff;
+	transition: all .1s ease-in 0s;border: 1px solid rgba(255,255,255,.8);
+}
+.MART .big-banner-ANTop{margin-top:10px;}
+.MART .floor-itemImg_A{width: 80%;height: 65%;margin:0px auto;padding-top:20px}
+.MART .floor-itemTitle_A{
+	width: 58%;height: 14%;margin:0px auto;font-size: 14px;
+	overflow: hidden;text-align: center;margin-top:10px;color: #000;
+}
+.MART .floor-itemPrice_A{
+	width: 58%;height: 10%;margin:2px auto;font-size: 18px;
+	overflow: hidden;color:rgb(255,0,52); text-align: center;
+}
+/*box-shadow: X轴偏移量 Y轴偏移量 [阴影模糊半径] [阴影扩展半径] [阴影颜色] [投影方式];*/
+.MART .big-banner-BL1{float: left;height: 295px;width: 240px;transition: all .2s ease-in 0s;}
+.MART .big-banner-BL2{float: left;margin-top: 10px; height: 295px;width: 240px;transition: all .2s ease-in 0s;}
+
+.tm-end{position:absolute;bottom: 320px; width: 100%;height: 70px;;}
+.tm-end>div{
+	width: 80px;height: 50px;margin:0px auto;margin-top: 10px;
+	background-image: url(../img/TB1wQDAPXXXXXXgaFXXXXXXXXXX-62-35.png);
+	background-size: 100% 100%;
+}
+.HomeTail{
+	position:absolute;bottom: 0px; width: 100%;height: 320px;background-color: #fff;
+	border-top: 1px solid #ccc;border-bottom: 3px solid red;
+}
+.HomeTail>div{
+	width: 1098px;height: 320px;margin:0px auto;
+	background-image: url(../img/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png);
+    background-repeat: no-repeat;
+    background-size: 68px 25px;
+    background-position: 0px 295px;
+}
+.HomeTail .TD1{
+	width: 100%;
+	height: 140px;
+	border-bottom: 1px solid #ddd;
+	background-image: url(../img/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 66%;
+	background-position: 0px 34%;
+}
+.HomeTail .TD1>a{
+	display:inline-block;width: 20%;height: 50%;
+	margin-left:2.36%;margin-right: 2.36%;margin-top:32px;margin-bottom: 32px;
+}
+.HomeTail .TD2{
+	width: 100%;
+	height: 180px;
+}
+.HomeTail .TD2>div{
+	margin:0px;padding-top: 20px;padding-left: 40px; display: inline-block;
+	width: 176px;height: 160px;vertical-align: middle;
+}
+.HomeTail .TD2>div dt{font-size: 16px;font-weight: bold;color: #444}
+.HomeTail .TD2>div dd>a{font-size: 12px;color: #888}

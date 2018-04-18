@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/HomeCss.css">
+	<link rel="stylesheet" type="text/css" href="css/HomeCssB.css">
+	<script type="text/javascript" src="jquery-1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/HomeJs.js"></script>
+</head>
+<body>
+	<div class="SearchFirst">
+		<div>
+			<div>
+				<span> &#xE618; </span>
+				<span> &#xE619; </span>
+			</div>
+			<div>
+				<input  placeholder="请输入商品名称，支持拼音" type="text" name=""><input type="submit" name="" value="搜索">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function slide(id){
+			$("html, body").animate({
+      			scrollTop: ($('#'+id).offset().top+560)+"px"
+    		},{
+      			duration: 400,
+      			easing: "swing"
+    		});
+		}
+	</script>
+	<div class="leftSidebar">
+		<div>
+			<div><a>导航</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartA')">天猫超市</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartB')">天猫国际</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartC')">美丽人生</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartD')">潮电酷玩</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartE')">居家生活</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartF')">打造爱巢</a></div>
+			<div><a href="javascript:void(0)" onclick="slide('MartG')">户外出行</a></div>
+			<div><a>猜你喜欢</a></div>
+		</div>
+	</div>
+	<div id='topS' class="mui-mbar-tabs-mask">
+		<div class="tabs-mask">
+		<div class="MemberBenefitsSP">
+			<div class="MemberBenefitsS" style='background-image: url(img/MemberBenefits.png)'></div>
+			<div class="MemberBenefitsH" style="display: none">
+				会员权益
+				<div class="arrow-right"></div>
+			</div>
+		</div>
+		<div>
+			<div class="shoppingTrolleySP">
+				<div class="shoppingTrolley">
+					<font>&#xE61D;</font><font color="#fff">购<br/>物<br/>车</font>
+				</div>
+			</div>
+		</div>
+		<div class="MemberBenefitsSP">
+			<div class="MemberBenefitsS" style='background-image: url(img/X2.png)'></div>
+			<div class="MemberBenefitsH" style="display: none">
+				我的资产
+				<div class="arrow-right"></div>
+			</div>
+		</div>
+		<div class="MemberBenefitsSP">
+			<div class="MemberBenefitsS" style='background-image: url(img/X3.png)'></div>
+			<div class="MemberBenefitsH" style="display: none">
+				我的收藏
+				<div class="arrow-right"></div>
+			</div>
+		</div>
+		<div class="MemberBenefitsSP">
+			<div class="MemberBenefitsS" style='background-image: url(img/X4.png)'></div>
+			<div class="MemberBenefitsH" style="display: none">
+				我看过的
+				<div class="arrow-right"></div>
+			</div>
+		</div>
+		<div class="MemberBenefitsSP">
+			<div class="MemberBenefitsS" style='background-image: url(img/X5.png)'></div>
+			<div class="MemberBenefitsH" style="display: none">
+				我要充值
+				<div class="arrow-right"></div>
+			</div>
+		</div>
+		</div>
+		<div class="tab-logo">
+			<div class="MemberBenefitsSP">
+				<div class="MemberBenefitsS" style='background-image: url(img/X6.png)'></div>
+				<div class="MemberBenefitsH" style="display: none">
+					用户反馈
+					<div class="arrow-right"></div>
+				</div>
+			</div>
+			<div class="MemberBenefitsSP">
+				<div class="MemberBenefitsS" style='background-image: url(img/X7.png)'></div>
+				<div></div>
+				<div class="MBimg" style="display: none;background-color: red;width: 210px;height: 210px;position: absolute;
+			right: 35px;
+			margin-top: -35px;">
+					<img src="img/TB1MaLKRXXXXXaWXFXXXXXXXXXX-480-260.png" alt="">
+				</div>
+			</div>
+			<div id='top' class="MemberBenefitsSP">
+				<div class="MemberBenefitsS" style='background-image: url(img/X8.png)'></div>
+				<div class="MemberBenefitsH" style="display: none">
+					返回顶部
+					<div class="arrow-right"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='shoppingTrolleySP' class="shoppingTrolleySPH"></div>
+	<div id='topS' class="topSPH MemberBenefitsSP">
+		<div class="MemberBenefitsS" style='background-image: url(img/X8.png)'></div>
+		<div class="MemberBenefitsH" style="display: none">
+					返回顶部
+			<div class="arrow-right"></div>
+		</div>
+	</div>
+	<div class="HomeTop">
+		<div class="TopA_bg">
+		<div class="TopA">
+			喵，欢迎来到我的世界 <a href="#">请登录</a> <a href="#">免费注册</a>
+			<span id="info_jb51_net">请改变浏览器窗口大小</span>
+			<ul class="sn-quick-menu sn-quick-menu_font">
+				<li><div><a href="#"><font color="red">&#xE601;</font><span class="menu_font">网站导航</span></a>
+					<div>
+					<ul class="sn-quick-menuSS">
+						<li><div>
+							<ul>
+								<li><b class="Hot_font">热点推荐 Hot</b></li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>天猫超市</a></li>
+										<li><a>喵鲜生</a></li>
+										<li><a>科技新品<div class="sn-sitemap-iconB"></div></a></li>
+										<li><a>女装新品<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>酷玩街</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>内衣新品<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>试女装</a></li>
+										<li><a>运动新品</a></li>
+										<li><a>时尚先生<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>精明妈咪</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>吃乐会<div class="sn-sitemap-iconB"></a></li>
+										<li><a>企业采购</a></li>
+										<li><a>会员积分</a></li>
+										<li><a>天猫国籍</a></li>
+										<li><a>品质频道</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+						<li><div>
+							<ul>
+								<li><b class="Market_font">行业市场 Market</b></li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>美妆</a></li>
+										<li><a>电器</a></li>
+										<li><a>女装<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>男装<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>女鞋</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>男鞋</a></li>
+										<li><a>内衣<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>箱包</a></li>
+										<li><a>运动</a></li>
+										<li><a>母婴</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>家装</a></li>
+										<li><a>医药</a></li>
+										<li><a>食品</a></li>
+										<li><a>配饰<div class="sn-sitemap-iconB"></div></a></li>
+										<li><a>汽车</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+						<li><div>
+							<ul>
+								<li><b class="Help_font">服务指南 Help</b></li>
+								<li>
+									<ul class="lineMy">
+										<li><a>帮助中心</a></li>
+										<li><a>品质保障</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy">
+										<li><a>特色服务</a></li>
+										<li><a>七天退换货</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><div><a href="#"><span class="menu_font">商家支持</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><b>商家</b></li>
+						<li><a href="#">商家中心</a><a href="#">天猫规则</a></li>
+						<li><a href="#">商家入驻</a><a href="#">运营服务</a></li>
+						<li><a href="#">商家品控</a><a href="#">商家工具</a></li>
+						<li><a href="#">天猫智库</a><a href="#">喵言喵语</a></li>
+						<li><hr style="border: 1px dotted" /></li>
+						<li><b>帮助</b></li>
+						<li><a href="#">帮助中心</a><a href="#">问商友</a></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><a href="#">淘宝网</a></li>
+				<li><a href="#"><font color="red">&#x3448;</font> 手机版</a></li>
+				<li><div><a href="#"><span class="menu_font">收藏夹</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><a href="#">收藏的宝贝</a></li>
+						<li><a href="#">收藏的店铺</a></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><a href="cart.html"> 购物车<span>0</span>件</a></li>
+				<li><div><a href="#"><span class="menu_font">我的淘宝</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><a href="list_bought_items.html">已买到的宝贝</a></li>
+						<li><a href="list_bought_items.html">已卖出的宝贝</a></li>
+					</ul>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<div class="TopB">
+			<a href='#'><img src="img/TB1L61Oj9_I8KJjy0FoXXaFnVXa-290-130.gif" alt=""></a>
+			<div class="TopBSB">
+				<div class="TopB_SearchBox">
+					<form action="search_product.html" method="get" accept-charset="utf-8">
+					<input  placeholder="请输入商品名称，支持拼音" type="text" name=""><input type="submit" name="" value="搜索">
+				</form>
+				</div>
+				<p>热门关键词：<a href="#">小安素</a><a href="#">暗牧</a><a href="#">花王</a><a href="#">千与千寻</a><a href="#">你可还在</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="HomeNeck">
+		<div class="NeckBg">
+		<div class="Neck">
+			<div class="NeckA">
+				<h1>&#xE601; 商品分类</h1>
+			</div>
+			<div class="NeckB">
+				<a href="#"><img src="img/TB1ztBlaMMPMeJjy1XbXXcwxVXa-200-60.png" alt=""></a><a href="#"><img src="img/TB1t5ObaBxRMKJjy0FdXXaifFXa-200-60.png" alt=""></a>
+				<a href="#">天猫会员</a><a href="#">电器城</a><a href="#">喵鲜生</a><a href="#">医药馆</a>
+				<a href="#">营业厅</a><a href="#">魅力惠</a><a href="#">飞猪旅行</a><a href="#">苏宁易购</a>
+			</div>
+		</div>
+		</div>
+		<div class="NeckImg">
+			<div class="slider-nav">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="Nimg">
+				<div class="advertising">
+				<img src="img/TB1c_LDLXXXXXXoXpXXXXXXXXXX-24-14.png" alt="">
+				</div>
+				<div class="NwckNavigation">
+					<ul>
+							<li>&#xE60D; <a href="#">女装</a>/<a href="#">内衣</a></li>
+							<li>&#xE615; <a href="#">男装</a>/<a href="#">运动户外</a></li>
+							<li>&#xE617; <a href="#">女鞋</a>/<a href="#">男鞋</a>/<a href='#'>箱包</a></li>
+							<li>&#xE60F; <a href="#">美妆</a>/<a href="#">个人护理</a></li>
+							<li>&#xE606; <a href="#">腕表</a>/<a href="#">眼镜</a>/<a href="#">珠宝</a></li>
+							<li>&#xE60B; <a href="#">手机</a>/<a href="#">数码</a>/<a href="#">电脑办公</a></li>
+							<li>&#xE60A; <a href="#">母婴玩具</a></li>
+							<li>&#xE609; <a href="#">零食</a>/<a href="#">茶酒</a>/<a href="#">进口食物</a></li>
+							<li>&#xE63F; <a href="#">生鲜水果</a></li>
+							<li>&#xE608; <a href="#">电器</a></li>
+							<li>&#xE607; <a href="#">家具建材</a></li>
+							<li>&#xE610; <a href="#">汽车用品</a></li>
+							<li>&#xE611; <a href="#">家纺</a>/<a href="#">家饰</a>/<a href="#">鲜花</a></li>
+							<li>&#xE613; <a href="#">医疗保健</a></li>
+							<li>&#xE612; <a href="#">厨具</a>/<a href="#">收纳</a>/<a href="#">宠物</a></li>
+							<li>&#xE614; <a href="#">图书音像</a></li>
+						</ul>		
+				</div>
+				<div class="NwckMasking">
+					<div>
+						<div class="NM_A_left">
+							当季流行&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">冬季新品</a>
+							<a href="#">商场同款</a>
+							<a href="#" class="pink">毛呢大衣</a>
+							<a href="#">毛针织衫</a>
+							<a href="#" class="azure">裤子</a>
+							<a href="#">气质连衣裙</a>
+							<a href="#" class="pink">无痕文胸</a>
+							<a href="#">运动文胸</a>
+							<a href="#">潮流家居服</a>
+							<a href="#" class="azure">百搭船袜</a>
+						</div>
+						<div class="NM_A_left">
+							精选上装&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">毛呢外套</a>
+							<a href="#">羽绒服</a>
+							<a href="#" class="pink">棉服</a>
+							<a href="#">丝绒卫衣</a>
+							<a href="#" class="azure">毛针织衫</a>
+							<a href="#">皮草</a>
+							<a href="#" class="pink">卫衣</a>
+							<a href="#">毛衣</a>
+							<a href="#">皮毛</a>
+							<a href="#" class="azure">一体长袖</a>
+							<a href="#">T恤</a>
+							<a href="#">衬衫</a>
+							<a href="#" class="pink">棒球外套</a>
+							<a href="#">短外套</a>
+							<a href="#" class="azure">小西装</a>
+							<a href="#">风衣</a>
+						</div>
+						<div class="NM_A_left">
+							浪漫裙装&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">连衣裙</a>
+							<a href="#">半身裙</a>
+							<a href="#" class="pink">A字裙</a>
+							<a href="#">荷叶边裙</a>
+							<a href="#" class="azure">大摆裙</a>
+							<a href="#"> 包臀裙</a>
+							<a href="#" class="pink">百褶裙</a>
+							<a href="#">长袖连衣裙</a>
+							<a href="#">棉麻连衣裙</a>
+							<a href="#" class="azure">牛仔裙</a>
+							<a href="#">蕾丝连衣裙</a>
+							<a href="#" class="pink">真丝连衣裙</a>
+						</div>
+						<div class="NM_A_left">
+							女士下装&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">休闲裤</a>
+							<a href="#">阔腿裤</a>
+							<a href="#" class="pink">牛仔裤</a>
+							<a href="#">打底裤</a>
+							<a href="#" class="azure">哈伦裤</a>
+							<a href="#">背带裤</a>
+							<a href="#" class="pink">小脚裤</a>
+							<a href="#">短裤</a>
+							<a href="#" class="azure">西装</a>
+						</div>
+						<div class="NM_A_left">
+							特色女装&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">时尚套装</a>
+							<a href="#">休闲套装</a>
+							<a href="#" class="pink">日系女装精选</a>
+							<a href="#">妈妈装</a>
+							<a href="#" class="azure">职业套装</a>
+							<a href="#">大码女装</a>
+							<a href="#" class="pink">优雅旗袍</a>
+							<a href="#">婚纱唐装</a>
+							<a href="#">小码女装</a>
+							<a href="#" class="azure">精致礼服</a>
+						</div>
+						<div class="NM_A_left">
+							文胸塑身&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">光面文胸</a>
+							<a href="#">运动文胸</a>
+							<a href="#" class="pink">美背文胸</a>
+							<a href="#">聚拢文胸</a>
+							<a href="#" class="azure">大杯文胸</a>
+							<a href="#">轻薄塑身</a>
+						</div>
+						<div class="NM_A_left">
+							家居服&#xE631;
+						</div>
+						<div class="NM_A_right">
+							<a href="#" class="pink">春夏家居服</a>
+							<a href="#">纯棉家居服</a>
+							<a href="#" class="pink">莫代尔家居服</a>
+							<a href="#">真丝家居服</a>
+							<a href="#" class="azure">春夏睡裙</a>
+							<a href="#">男士家居服</a>
+							<a href="#" class="pink">情侣家居服</a>
+							<a href="#" class="azure">性感睡裙</a>
+						</div>
+					</div>
+					<div>
+						<div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+							<div>
+								<a href="#"><img src="img/TB1gWxjFFXXXXcEaFXXSutbFXXX.jpg_170x120q30.jpg" alt=""></a>
+							</div>
+						</div>
+						<div>
+							<a href="#"><img src="img/TB1xnkQKVXXXXaJXXXXXXXXXXXX-378-174.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="NwckRecommend">
+					<div><a href="#"><img src="img/TB2W987i7fb_uJjSsrbXXb6bVXa_!!169-2-lubanu.png_240x5000q100.jpg_.webp" alt=""></a></div>
+					<div><a href="#"><img src="img/TB2GmDGj4TI8KJjSspiXXbM4FXa_!!46-2-lubanu.png_240x5000q100.jpg_.webp" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="HomeBody">
+		<div class="Recommend">
+			<div class="RecommendA">
+				<div>
+					<span>品牌闪购 </span>
+					<span>BRAND SALE</span>
+					<a class="RA" href="#">&#xE640;</a>
+				</div>
+				<a href="#"><img src="img/TB1ksCQdiqAXuNjy1XdXXaYcVXa-468-644.jpg_400x400q100.jpg_.webp" alt=""></a>
+			</div>
+			<div class="RecommendB">
+				<div>
+					<span>聚名品 </span>
+					<span>LUXURY CHANNEL</span>
+					<a class="RA" href="#">&#xE640;</a>
+				</div>
+				<a href="#"><img src="img/TB21cA4bUgQMeJjy0FgXXc5dXXa_!!2396691562.jpg_620x10000q100.jpg_.webp" alt=""></a>
+			</div>
+			<div class="RecommendC">
+				<div>
+					<span>品牌活动 </span>
+					<span>BRAND ACTIVITY</span>
+					<a class="RA" href="#">&#xE640;</a>
+				</div>
+				<a href="#"><img src="img/TB1yOaxeRfH8KJjy1XbSuvLdXXa.jpg_620x10000q100.jpg_.webp" alt=""></a>
+			</div>
+		</div>
+		<div class="RecommendDrand">
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/T1X8OBXwhcXXal8NYH_!!0.JPG_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1a311OpXXXXctXVXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1.tGRNpXXXXXVapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1L.evIXXXXXcXXFXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<div class="lucency">
+						优惠卷 ￥500
+						<span type="" class="button">点击进入</span>
+					</div>
+				</a>
+				<div class="img">
+					<img src="img/TB1qWQyIVXXXXXlapXXSutbFXXX.jpg_125x125q100.jpg_.webp" alt="">
+				</div>
+			</div>
+			<div class="exchange">&#xE637;<span>另选择</span></div>
+		</div>
+		<div class="MART">
+			<div id='MartA'>
+			<div>
+				<div class="big-banner-TOPA">
+					<img src="img/TB1Q67hXPihSKJjy0FeXXbJtpXa-428-50.png" alt="">
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-AL1">
+					<a href="#"><img src="img/TB1Yq23jsLJ8KJjy0FnXXcFDpXa-468-1236.jpg" alt=""></a>
+				</div>
+				<div class="big-banner-A1">
+					<div style="width: 457px;height: 275px;margin:10px;box-shadow:0 0 10px 1px rgba(228,228,228,1);position: relative;">
+						<div style="height: 15%;width: 50%;float: left;background-color: rgb(0,178,98);font-size: 21px;text-align: center;padding-top: 2.5%;">
+							今日疯抢
+						</div>
+						<div style="height: 15%;width: 50%;float: left;background-color: rgb(241,241,241);font-size: 21px;text-align: center;padding-top: 2.5%">
+							量贩装
+						</div>
+						<a href="#">
+						<div style="width: 100%;height: 80%">
+							<div style="position: absolute;bottom: 20%; height: 32%;width: 50%;background-color: rgba(241,241,241,.6);">
+								<div style="margin-left: 25px;float: left;">
+									<img style="width: 26px;height: 26px;" src="img/TB12RqQewMPMeJjy1XdXXasrXXa-23-23.png" alt="">
+									<span style="font-size: 24px;color: rgb(0,178,98);font-weight: bold;">单件包邮</span><br/><br/>
+									<span style="font-size: 21px;color: #000;">低价享不停</span>
+								</div>
+								<div style="margin-right:-30px;margin-top:12px;float:right;background-color: rgba(241,241,241,.6);width: 62px;height: 62px;transform-origin: left|bottom;transform: rotate(45deg);"></div>
+							</div>
+							<div style="width: 50%;height: 100%;">
+								<img style="padding-left: 100%;" src="img/TB1YHy.gBcHL1JjSZFBwu1iGXXa.png" alt="">
+							</div>
+						</div>
+						</a>
+						<div style="display: none">
+							<div>
+							
+							</div>
+							<div class="masking">
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_KmFc7fb_uJkHFqDXXXVIVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							玩味物语黄山烧饼梅菜扣肉味200g下午茶零食休闲
+						</div>
+						<div class="floor-itemPrice_A">
+							￥15.9
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB10NkKktbJ8KJjy1zjXXaqapXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							恒都巴西牛腩块1kg 进口牛肉
+						</div>
+						<div class="floor-itemPrice_A">
+							￥49
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB18cfIQVXXXXaOaXXXXXXXXXXX_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							植护奶瓶刷5件套装婴儿奶嘴刷洗奶瓶刷尼龙360度旋转
+						</div>
+						<div class="floor-itemPrice_A">
+							￥9.9
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1FuJDSpXXXXcOaXXXXXXXXXXX_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							良品铺子棒棒卷100g辣条零食麻辣湖南零食食品小吃
+						</div>
+						<div class="floor-itemPrice_A">
+							￥15.9
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1ImMGXiqAXuNjy1XdXXaYcVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							百草味 熟制板栗仁80g*2 无壳去壳甘栗组合装 甜栗子
+						</div>
+						<div class="floor-itemPrice_A">
+							￥25.8
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1.HtXdJHO8KJjSZFHXXbWJFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							金锣精选冻肋排块400g 猪肉
+						</div>
+						<div class="floor-itemPrice_A">
+							￥25.8
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartB'>
+			<div>
+				<div class="big-banner-TOPA">
+					<img src="img/TB1R.slXGagSKJjy0FgXXcRqFXa-428-50.png" alt="">
+				</div>
+				<div class="big-banner-TOPB">   
+					<a href="#">口红</a>
+					<a href="#">YSL</a>
+					<a href="#">面膜</a>
+					<a href="#">防晒</a>
+					<a href="#">迪奥</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartC'>
+			<div>
+				<div class="big-banner-TOPA" style="border-left: 4px solid rgb(232,95,141);padding-left: 20px;">
+					<span style="font-size: 18px;">美丽人生 </span>
+					<span style="font-size: 14px;"> FASHION & BEAUTY</span>
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartD'>
+			<div>
+				<div class="big-banner-TOPA" style="border-left: 4px solid rgb(10,166,232);padding-left: 20px;">
+					<span style="font-size: 18px;">潮电酷玩 </span>
+					<span style="font-size: 14px;"> ELECTRONICS</span>
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartE'>
+			<div>
+				<div class="big-banner-TOPA" style="border-left: 4px solid rgb(0,178,98);padding-left: 20px;">
+					<span style="font-size: 18px;">居家生活 </span>
+					<span style="font-size: 14px;"> GROCERY & HEALTH</span>
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartF'>
+			<div>
+				<div class="big-banner-TOPA" style="border-left: 4px solid rgb(241,84,83);padding-left: 20px;">
+					<span style="font-size: 18px;">打造爱巢 </span>
+					<span style="font-size: 14px;"> HOME</span>
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div id='MartG'>
+			<div>
+				<div class="big-banner-TOPA" style="border-left: 4px solid rgb(0,178,98);padding-left: 20px;">
+					<span style="font-size: 18px;">户外出行 </span>
+					<span style="font-size: 14px;"> OUTDOORS & AUTOMOTIVE</span>
+				</div>
+				<div class="big-banner-TOPB">
+					<a href="#">进口食品</a>
+					<a href="#">食品饮料</a>
+					<a href="#">粮油副食</a>
+					<a href="#">美容洗护</a>
+					<a href="#">家居家电</a>
+					<a href="#">家庭清洁</a>
+					<a href="#">母婴用品</a>
+					<a href="#">生鲜水果</a>
+				</div>
+			</div>
+			<div>
+				<div class="masking big-banner-BL1">
+					<a href="#"><img src="img/TB1aDIpkwvD8KJjy0FlSuugBFXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1iWHJktbJ8KJjy1zjSuuqapXa.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							好货优品全民疯抢
+						</div>
+						<div class="floor-itemPrice_A">
+							
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB19eolhY_I8KJjy1XaXXbsxpXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							卡乐比北海道富果乐水果麦片+薯条三兄弟组合吃货零食冲饮早餐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥89
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1R4BucK38SeJjSZFPXXc_vFXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							韩国正品 Cloud9/九朵云马油面霜膏70ml 淡化疤痕祛痘印补水保湿
+						</div>
+						<div class="floor-itemPrice_A">
+							￥72
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1jjnBc7fb_uJkSnhJXXbdDVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							爱肯拿无谷幼犬成犬通用型宠物狗狗用品进口狗粮2kg
+						</div>
+						<div class="floor-itemPrice_A">
+							￥215
+						</div>
+					</a>
+				</div>
+				<div class="masking big-banner-BL2">
+					<a href="#"><img src="img/TB1AaPOkDTI8KJjSsphSuwFppXa.jpg" alt=""></a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1VU9WkInI8KJjSspeXXcwIpXa_!!2-item_pic.png" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							德国进口Theramed汉高牙膏防臭清新口气立式牙膏100g
+						</div>
+						<div class="floor-itemPrice_A">
+							￥75
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1_fcmatHO8KJjSZFLXXaTqVXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							泰国进口零食炸海苔卷32g独立包多口味小老板脆脆紫菜海苔
+						</div>
+						<div class="floor-itemPrice_A">
+							￥13
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1IKBvcWLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							苏菲尤妮佳超熟睡夜用40cm*2包Air超薄日用25cm*3包组合装
+						</div>
+						<div class="floor-itemPrice_A">
+							￥108
+						</div>
+					</a>
+				</div>
+				<div class="masking borderRed big-banner-AN big-banner-ANTop">
+					<a href="#">
+						<div class="floor-itemImg_A">
+							<img src="img/TB1Z1cldqLN8KJjSZFmXXcQ6XXa_!!0-item_pic.jpg" alt="">
+						</div>
+						<div class="floor-itemTitle_A">
+							illy意利进口浓缩coffee中度烘焙咖啡粉+深焙咖啡粉250gx2罐
+						</div>
+						<div class="floor-itemPrice_A">
+							￥138
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="tm-end">
+			<div></div>
+		</div>
+		<div class="HomeTail">
+			<div>
+				<div class=TD1>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				<div class=TD2>
+					<div>
+						<dl>
+							<dt>购物指南</dt>
+							<dd><a href="#">免费注册</a></dd>
+							<dd><a href="#">开通支付宝</a></dd>
+							<dd><a href="#">支付宝充值</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>天猫保障</dt>
+							<dd><a href="#">发票保障</a></dd>
+							<dd><a href="#">售后规则</a></dd>
+							<dd><a href="#">缺货赔付</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>支付方式</dt>
+							<dd><a href="#">快捷支付</a></dd>
+							<dd><a href="#">信用卡</a></dd>
+							<dd><a href="#">余额宝</a></dd>
+							<dd><a href="#">蚂蚁花呗</a></dd>
+							<dd><a href="#">货到付款</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>商家服务</dt>
+							<dd><a href="#">天猫规则</a></dd>
+							<dd><a href="#">商家入驻</a></dd>
+							<dd><a href="#">商家中心</a></dd>
+							<dd><a href="#">天猫智库</a></dd>
+							<dd><a href="#">物流服务</a></dd>
+							<dd><a href="#">喵言喵语</a></dd>
+							<dd><a href="#">运营服务</a></dd>
+						</dl>
+					</div>
+					<div>
+						<dl>
+							<dt>购物指南</dt>
+							<dd><a href="#"><img style="width: 105px;height: 105px;" src="img/TB14VZKHXXXXXcAXXXX64VRZFXX-105-105.png" alt=""></a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		/*$('#top,#topS').click(function(){
+			$("html, body").animate({
+      			scrollTop: $('.HomeTop').offset().top+"px"
+      			//$('[name=top]').offset().top 获取当前头像素
+    		},{
+      			duration: 400,
+      			easing: "swing"
+    		});
+		})*/
+		$("#shoppingTrolleySP").append($(".shoppingTrolleySP").clone(true));
+		//$("#topS").append($("#top").clone(true));
+		window.onresize = function(){
+		document.getElementById("info_jb51_net").innerHTML="宽度："+document.documentElement.clientWidth+"，高度："+document.documentElement.clientHeight;
+		if(document.documentElement.clientHeight<600){
+			$(".mui-mbar-tabs-mask").animate({"right": "-35px"}, 0);
+		}else{
+			$(".mui-mbar-tabs-mask").animate({"right": "0px"}, 0);
+		}
+		}
+		
+		$(document).scroll(function(){
+			if($('#topS').offset().top>=600){
+				$('.leftSidebar>div').show(400);
+			}else{
+				$('.leftSidebar>div').hide(400);
+			}
+			if($('#topS').offset().top>=800){
+				$('.SearchFirst').animate({"top": "0px"},0);
+			}else{
+				$('.SearchFirst').animate({"top": "-50px"},0);
+			}
+			//console.log($('#topS').offset().top);
+		})
+	})
+</script>
+</html>

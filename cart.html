@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/HomeCss.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<script type="text/javascript" src="jquery-1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/HomeJs.js"></script>
+</head>
+<body>
+	<div class="HomeTop">
+		<div class="TopA_bg">
+		<div class="TopA">
+			<div style="display: inline-block;width: 100px;height: 15px;">
+			叶凡的世纪 <i style="display: inline-block;width: 20px;vertical-align: middle;height:20px;background: url(img/TB1Z_HcQFXXXXc7apXXXXXXXXXX-26-71.png);background-position: 0px 0px"></i>
+			</div>
+			<div style="display: inline-block;">
+				消息
+			</div>
+			<a href="#">手机逛淘宝</a> <a href='Home.html'>淘宝网首页</a>
+			<ul class="sn-quick-menu sn-quick-menu_font">
+				<li><div><a href="#"><font color="red">&#xE601;</font><span class="menu_font">网站导航</span></a>
+					<div>
+					<ul class="sn-quick-menuSS">
+						<li><div>
+							<ul>
+								<li><b class="Hot_font">热点推荐 Hot</b></li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>天猫超市</a></li>
+										<li><a>喵鲜生</a></li>
+										<li><a>科技新品<div class="sn-sitemap-iconB"></div></a></li>
+										<li><a>女装新品<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>酷玩街</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>内衣新品<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>试女装</a></li>
+										<li><a>运动新品</a></li>
+										<li><a>时尚先生<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>精明妈咪</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW86">
+										<li><a>吃乐会<div class="sn-sitemap-iconB"></a></li>
+										<li><a>企业采购</a></li>
+										<li><a>会员积分</a></li>
+										<li><a>天猫国籍</a></li>
+										<li><a>品质频道</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+						<li><div>
+							<ul>
+								<li><b class="Market_font">行业市场 Market</b></li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>美妆</a></li>
+										<li><a>电器</a></li>
+										<li><a>女装<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>男装<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>女鞋</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>男鞋</a></li>
+										<li><a>内衣<div class="sn-sitemap-icon"></div></a></li>
+										<li><a>箱包</a></li>
+										<li><a>运动</a></li>
+										<li><a>母婴</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy lieW">
+										<li><a>家装</a></li>
+										<li><a>医药</a></li>
+										<li><a>食品</a></li>
+										<li><a>配饰<div class="sn-sitemap-iconB"></div></a></li>
+										<li><a>汽车</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+						<li><div>
+							<ul>
+								<li><b class="Help_font">服务指南 Help</b></li>
+								<li>
+									<ul class="lineMy">
+										<li><a>帮助中心</a></li>
+										<li><a>品质保障</a></li>
+									</ul>
+								</li>
+								<li>
+									<ul class="lineMy">
+										<li><a>特色服务</a></li>
+										<li><a>七天退换货</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><div><a href="#"><span class="menu_font">商家支持</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><b>商家</b></li>
+						<li><a href="#">商家中心</a><a href="#">天猫规则</a></li>
+						<li><a href="#">商家入驻</a><a href="#">运营服务</a></li>
+						<li><a href="#">商家品控</a><a href="#">商家工具</a></li>
+						<li><a href="#">天猫智库</a><a href="#">喵言喵语</a></li>
+						<li><hr style="border: 1px dotted" /></li>
+						<li><b>帮助</b></li>
+						<li><a href="#">帮助中心</a><a href="#">问商友</a></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><a href="#">淘宝网</a></li>
+				<li><a href="#"><font color="red">&#x3448;</font> 手机版</a></li>
+				<li><div><a href="#"><span class="menu_font">收藏夹</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><a href="#">收藏的宝贝</a></li>
+						<li><a href="#">收藏的店铺</a></li>
+					</ul>
+					</div>
+				</div></li>
+				<li><a href="cart.html"> 购物车<span>0</span>件</a></li>
+				<li><div><a href="#"><span class="menu_font">我的淘宝</span></a>
+					<div>
+					<ul class="sn-quick-menuS">
+						<li><a href="list_bought_items.html">已买到的宝贝</a></li>
+						<li><a href="list_bought_items.html">已卖出的宝贝</a></li>
+					</ul>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	<div class="TopCA">
+		<div class="TopCA_d1">
+		<a href='#'><span class="CARTimg"></span></a>
+		</div>
+		<div class="TopCA_d2">
+			<input type="text" name="" value="" placeholder='请输入关键字'>
+			<button type="">搜索</button>
+		</div>
+	</div>
+	<div class="TopCB">
+		<ul class="ul_inline DH">
+			<li>全部商品 <em class="J_SmallTotal">21</em></li>
+			<li>降价商品 <em class="J_SmallTotal">1</em></li>
+			<li>库存紧张 <em class="J_SmallTotal">1</em></li>
+			<!--li 如果em中的值为大于0 的值，那么光标为
+				cursor:pointer	光标呈现为指示链接的指针（一只手）
+				反之为
+				cursor: not-allowed; 光标呈现为禁用
+			-->
+		</ul>
+		<div>
+			已选商品（不含运费） <em class="J_SmallTotal">￥0.0</em>
+			<button type="">结算</button><!-- button 如果em中的值为大于0 的值，那么光标为
+				cursor:pointer	光标呈现为指示链接的指针（一只手）
+				反之为
+				cursor: not-allowed; 光标呈现为禁用
+			-->
+		</div>
+	</div>
+	<div class="bodyCA">
+		<div class="bodyCA_d1">
+			<div class="th-chk">
+				<input type="checkbox" name="" value="" class="checkbox"> 全选
+			</div>
+			<div class="th-item">
+				商品信息
+			</div>
+			<div class="th-info">
+				
+			</div>
+			<div class="th-price">
+				单价
+			</div>
+			<div class="th-amount">
+				数量
+			</div>
+			<div class='th-sum'>
+				金额
+			</div>
+			<div class='th-op'>
+				操作
+			</div>
+		</div>
+		<div  class="bodyCA_d2">
+			<div class="commodity">
+				<div class="store">
+					<input type="checkbox" name="" value="" class="checkbox">
+					<span class="ChaoshiIcon"></span>
+					店铺 ：<a href="#">天猫超市</a>
+					<a href="#" class="ww-small"></a>
+				</div>
+				<div class="commodityBundle">
+					<div class="bundle">
+						<div class="td-chk">
+							
+						</div>
+						<div class="bd-title">
+							普通商品
+						</div>
+						<div class="bd-promos">
+							
+						</div>
+					</div>
+					<div class="Item">
+						<ul class="ul_inline">
+							<li class="td-chks"><input type="checkbox" class="checkbox" name=""></li>
+							<li class="td-item"><div class="td_div">
+								<div>
+									<a href="#"><img src="img/TB2FhwnpVXXXXaUXFXXXXXXXXXX_!!725677994.jpg_80x80.jpg" alt=""></a>
+								</div>
+								<a href="#">飞科电吹风机负离子大功率静音冷热风家发廊FH6271</a>
+							</div></li>
+							<li class="td-info"><div class="td_div">颜色分类：黑色</div></li>
+							<li class="td-price"><div class="td_div">￥159.00</div></li>
+							<li class="td-amount"><div class="td_div">
+								<span>-</span>
+								<input type="text" name="" value="1">
+								<span>+</span>
+							</div></li>
+							<li class='td-sum'><div class="td_div">￥159.00
+								<p style="font-size: 10px;color: rgb(156,156,156);">(0.8Kg)</p></div></li>
+							<li class='td-op'><div class="td_div">
+								<ul>
+									<li><a href="#">移入收藏夹</a></li>
+									<li><a href="#">删除</a></li>
+									<li><a href="#">相似宝贝</a></li>
+								</ul>
+							</div>
+							</li>
+						</ul>
+					</div>
+					<div class="Item failure">
+						<ul class="ul_inline">
+							<li class="td-chks"><span>失效</span></li>
+							<li class="td-item"><div class="td_div">
+								<div>
+									<a href="#"><img src="img/TB17YO3RXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg" alt=""></a>
+								</div>
+								<a href="#">达利园又一餐八宝粥玉米莲子360g*12/箱速食礼盒</a>
+							</div></li>
+							<li class="td-info"><div class="td_div"></div></li>
+							<li class="td-price"><div class="td_div">30.90</div></li>
+							<li class="td-amount"><div class="td_div">1</div></li>
+							<li class='td-sum'><div class="td_div">￥30.90
+								<p style="font-size: 10px;color: rgb(156,156,156);">(4.32Kg)</p></div></li>
+							<li class='td-op'><div class="td_div">
+								<ul>
+									<li><a href="#">移入收藏夹</a></li>
+									<li><a href="#">删除</a></li>
+									<li><a href="#">相似宝贝</a></li>
+								</ul>
+							</div>
+							</li>
+						</ul>
+					</div>
+					<div class="bundle">
+						<div class="td-chk">
+							
+						</div>
+						<div class="bd-title">
+							满减活动
+						</div>
+						<div class="bd-promos">
+							已享优惠:送4件超值赠品（赠完即止）  满1件,送4件超值赠品（赠完即止）
+						</div>
+					</div>
+					<div class="Item failure">
+						<ul class="ul_inline">
+							<li class="td-chks"><span>失效</span></li>
+							<li class="td-item"><div class="td_div">
+								<div>
+									<a href="#"><img src="img/TB17YO3RXXXXXazXVXXXXXXXXXX_!!0-item_pic.jpg_80x80.jpg" alt=""></a>
+								</div>
+								<a href="#">达利园又一餐八宝粥玉米莲子360g*12/箱速食礼盒</a>
+							</div></li>
+							<li class="td-info"><div class="td_div"></div></li>
+							<li class="td-price"><div class="td_div">30.90</div></li>
+							<li class="td-amount"><div class="td_div">1</div></li>
+							<li class='td-sum'><div class="td_div">￥30.90
+								<p style="font-size: 10px;color: rgb(156,156,156);">(4.32Kg)</p></div></li>
+							<li class='td-op'><div class="td_div">
+								<ul>
+									<li><a href="#">移入收藏夹</a></li>
+									<li><a href="#">删除</a></li>
+									<li><a href="#">相似宝贝</a></li>
+								</ul>
+							</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div  class="bodyCA_d2">
+			<div class="commodity">
+				<div class="store">
+					<input type="checkbox" name="" value="" class="checkbox">
+					店铺 ：<a href="#">名围其主</a>
+					<a href="#" class="ww-small"></a>
+				</div>
+				<div class="commodityBundle">
+					<div class="Item">
+						<ul class="ul_inline">
+							<li class="td-chks"><input type="checkbox" class="checkbox" name=""></li>
+							<li class="td-item"><div class="td_div">
+								<div>
+									<a href="#"><img src="img/TB2D9l6aFXXXXceXpXXXXXXXXXX_!!1693777356.jpg_80x80.jpg" alt=""></a>
+								</div>
+								<a href="#">2017冬季新男士围巾韩版潮男青年人学生超长款双面羊毛围巾礼盒装</a>
+							</div></li>
+							<li class="td-info"><div class="td_div">颜色分类：黑白色</div></li>
+							<li class="td-price"><div class="td_div">￥75.00</div></li>
+							<li class="td-amount"><div class="td_div">
+								<span>-</span>
+								<input type="text" name="" value="1">
+								<span>+</span>
+							</div></li>
+							<li class='td-sum'><div class="td_div">￥75.00
+								<p style="font-size: 10px;color: rgb(156,156,156);">(0.8Kg)</p></div></li>
+							<li class='td-op'><div class="td_div">
+								<ul>
+									<li><a href="#">移入收藏夹</a></li>
+									<li><a href="#">删除</a></li>
+									<li><a href="#">相似宝贝</a></li>
+								</ul>
+							</div>
+							</li>
+						</ul>
+					</div>
+					<div class="Item">
+						<ul class="ul_inline">
+							<li class="td-chks"><input type="checkbox" class="checkbox" name=""></li>
+							<li class="td-item"><div class="td_div">
+								<div>
+									<a href="#"><img src="img/TB22.BRaQfb_uJkSmFPXXcrCFXa_!!1693777356.jpg_80x80.jpg" alt=""></a>
+								</div>
+								<a href="#">特价冬季男士羊毛围巾韩版潮男商务青年学生厚长款保暖围脖礼盒装</a>
+							</div></li>
+							<li class="td-info"><div class="td_div">颜色分类：宝蓝色</div></li>
+							<li class="td-price"><div class="td_div">￥75.00</div></li>
+							<li class="td-amount"><div class="td_div">
+								<span>-</span>
+								<input type="text" name="" value="1">
+								<span>+</span>
+							</div></li>
+							<li class='td-sum'><div class="td_div">￥75.00
+								<p style="font-size: 10px;color: rgb(156,156,156);">(0.8Kg)</p></div></li>
+							<li class='td-op'><div class="td_div">
+								<ul>
+									<li><a href="#">移入收藏夹</a></li>
+									<li><a href="#">删除</a></li>
+									<li><a href="#">相似宝贝</a></li>
+								</ul>
+							</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='float-bar-wrapper' class="float-bar-wrapper">
+			<div class="select-all">
+				<input type="checkbox" class="checkbox" name="" value="" placeholder=""> 全选
+			</div>
+			<div class="operations">
+				<ul class="ul_inline">
+					<li><a href="#">删除</a></li>
+					<li><a href="#">清除失效宝贝</a></li>
+					<li><a href="#">移入收藏夹</a></li>
+					<li><a href="#">分享</a></li>
+				</ul>
+			</div>
+			<div class="float-bar-right">
+				<div>
+					<span>已选商品</span>
+					<em>0</em>
+					<span>件</span>
+				</div>
+				<div>
+					<span>合计（不含运费）</span>
+					<em>0.00</em>
+				</div>
+				<div>
+					<a href="#" class="submit-btn">结 算</a>
+				</div>
+			</div>
+		</div>
+		<div class="J_FloatBar">
+			<div class="float-bar-wrapper">
+				<div class="select-all">
+					<input type="checkbox" class="checkbox" name="" value="" placeholder=""> 全选
+				</div>
+				<div class="operations">
+					<ul class="ul_inline">
+						<li><a href="#">删除</a></li>
+						<li><a href="#">清除失效宝贝</a></li>
+						<li><a href="#">移入收藏夹</a></li>
+						<li><a href="#">分享</a></li>
+					</ul>
+				</div>
+				<div class="float-bar-right">
+					<div>
+						<span>已选商品</span>
+						<em>0</em>
+						<span>件</span>
+					</div>
+					<div>
+						<span>合计（不含运费）</span>
+						<em>0.00</em>
+					</div>
+					<div>
+						<a href="#" class="submit-btn">结 算</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="jquery-1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).scroll(function(){
+			if($('.J_FloatBar').offset().top>=$('#float-bar-wrapper').offset().top){
+				$('.J_FloatBar').animate({"bottom": "-50px"},0);
+			}else{
+				$('.J_FloatBar').animate({"bottom": "0px"},0);
+			}
+		})
+	})
+</script>
+</html>
